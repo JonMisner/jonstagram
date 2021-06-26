@@ -86,7 +86,3 @@ export default function Login() {
     </div>
   );
 }
-
-
-// text-redprimary -> hex values
-// text-gray-base
