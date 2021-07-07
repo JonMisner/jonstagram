@@ -4,7 +4,7 @@ import * as ROUTES from "./constants/routes";
 import useAuthListener from "./hooks/use-auth-listener";
 import UserContext from "./context/user";
 import ProtectedRoute from "./helpers/protected-route";
-import IsUserLoggedIn from "./helpers/is-user-logged-in;";
+import IsUserLoggedIn from "./helpers/is-user-logged-in";
 
 const Login = lazy(() => import("./pages/login"));
 const SignUp = lazy(() => import("./pages/sign-up"));

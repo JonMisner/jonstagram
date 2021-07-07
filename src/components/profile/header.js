@@ -11,6 +11,7 @@ export default function Header({
   followerCount,
   setFollowerCount,
   profile: {
+    //Destrtucured Profile
     docId: profileDocId,
     userId: profileUserId,
     fullName,
